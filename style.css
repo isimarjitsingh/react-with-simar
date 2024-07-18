@@ -1,3 +1,126 @@
-#heading{
-    color: brown;
+.headerMain{
+    width: 95vw;
+    height: 20vh;
+    background-color: lightcyan;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto ;
+}
+
+.button{
+    height: 40px ;
+    width: 80px;
+    margin-top: 40px;
+}
+
+.logo{
+    height: 18vh;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.headerList>ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+
+.headerList>ul>li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 50px;
+    font-size: 24;
+}
+
+.restaurant-container{
+    margin-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartmain{
+
+    width: 200px;
+    height: 300px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.cartmain:hover{
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+.cart-image{
+    width: 180px;
+    height: 150px;
+    padding:10px 10px;
+    border-radius: 5%;
+}
+
+.cartlist>h5{
+    margin: 10px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%; /* or a fixed width */
+}
+
+.filter-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.filter{
+    height: 40px;
+    width: 100px;
+    border-radius: 10;
+    margin-left: 40px;
+}
+
+.search{
+    border: 1px dashed black;
+}
+
+.search-bar{
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: white;
+    border-right: 1px dashed black;
+}
+
+.search>button{
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+
+.search>button:hover{
+    box-shadow: 5px 5px 5px black;
+    border: 1px dashed grey;
+}
+
+.shimmer-wrapper{ 
+    width: 200px;
+    height: 300px;
+    background-color: #cac7c7;
+    opacity: 0.7;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
 }
